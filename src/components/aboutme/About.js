@@ -11,7 +11,7 @@ export default function About() {
                         Mi contraddistinguo per la mia proattività e per le eccellenti capacità di problem solving. Inoltre, sono profondamente incline al lavoro di squadra, credendo fermamente che il collaborare con altri possa portare a risultati migliori e più soddisfacenti.</p>
                 </div>
             </div>
-            <img src="gattopixel.png" className='gatto' style={{ position: 'absolute', top: 100, right: 10, width: '40%' }} />
+            <img src="gattopixel.png" className='gatto' style={{ position: 'absolute', top: 100, right: 0, width: '40%' }} />
         </>
     );
 }

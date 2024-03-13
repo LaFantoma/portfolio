@@ -3,8 +3,9 @@ export default function Skills() {
 
     return (
         <>
-            <h1 className="mb-5 satisfy-regular" style={{ fontSize: '50px' }}>My skills</h1>
-            <img src="stella.png" className="" style={{ width: '5%' }} />
+
+            <h1 className="mb-2 satisfy-regular" style={{ fontSize: '50px' }}>My skills</h1>
+            {/* <img src="stella.png" className="" style={{ width: '3%' }} /> */}
             <div className="row d-flex my-5" style={{ width: "70%" }}>
                 <div className="col m-3 justify-content-between">
                     <h1 className="comfortaa-about text-decoration-underline">back-end</h1>
@@ -38,6 +39,7 @@ export default function Skills() {
                     <h1></h1>
                 </div>
             </div>
+            <img src="computer.png" style={{ position: 'absolute', top: 150, right: 100, width: '25%' }} />
         </>
     );
 }
