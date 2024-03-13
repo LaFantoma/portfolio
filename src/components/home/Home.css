@@ -1,0 +1,20 @@
+.header-name {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 2vw;
+    color: #FFE6E6;
+    margin: 0;
+}
+
+.header-job {
+    font-family: Geneva, Verdana, sans-serif;
+    font-size: 1vw;
+    color: black;
+    margin: 0;
+}
+
+hr {
+    height: 1px solid;
+    width: 15%;
+    margin: 20px;
+    color: #FFE6E6;
+}
