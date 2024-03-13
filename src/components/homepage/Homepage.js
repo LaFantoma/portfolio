@@ -28,7 +28,7 @@ export default function Homepage() {
                     <button className='m-2'><FontAwesomeIcon icon={faPaperPlane} /> </button>
                     <button className='m-2'><FontAwesomeIcon icon={faCodeBranch} /> </button>
                 </div>
-                <div className='homepage-header d-flex justify-content-center' id='divvone'>
+                <div className='homepage-header ' id='divvone'>
                     {currentPage == "home" && <Home />}
                     {currentPage == "about" && <About />}
                 </div>
