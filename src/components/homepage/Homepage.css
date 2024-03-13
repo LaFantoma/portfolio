@@ -31,30 +31,72 @@ hr {
     color: #FFE6E6;
 }
 
-button {
+.button-home {
     border-radius: 4px;
     background-color: transparent;
     border: none;
     color: #492E87;
     text-align: left;
-    font-size: 32px;
+    font-size: 25px;
     padding: 16px;
     padding-left: 25px;
-    width: 220px;
+    width: 180px;
     transition: all 0.5s;
     cursor: pointer;
     margin: 36px;
 }
 
-button {
+.button-home {
     cursor: pointer;
     display: inline-block;
     position: relative;
     transition: 0.5s;
 }
 
-button:after {
-    content: 'qualcosa';
+.button-home:after {
+    content: 'Home';
+    position: absolute;
+    opacity: 0;
+    top: 14px;
+    right: -60px;
+    transition: 0.5s;
+    padding-right: 30px;
+}
+
+.button-home:hover {
+    padding-right: 24px;
+    padding-left: 9px;
+}
+
+.button-home:hover:after {
+    opacity: 1;
+    right: 2px;
+}
+
+.button-about {
+    border-radius: 4px;
+    background-color: transparent;
+    border: none;
+    color: #492E87;
+    text-align: left;
+    font-size: 25px;
+    padding: 16px;
+    padding-left: 25px;
+    width: 180px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 36px;
+}
+
+.button-about {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.button-about:after {
+    content: 'About me';
     position: absolute;
     opacity: 0;
     top: 14px;
@@ -62,12 +104,137 @@ button:after {
     transition: 0.5s;
 }
 
-button:hover {
+.button-about:hover {
     padding-right: 24px;
     padding-left: 9px;
 }
 
-button:hover:after {
+.button-about:hover:after {
+    opacity: 1;
+    right: 2px;
+}
+
+.button-skills {
+    border-radius: 4px;
+    background-color: transparent;
+    border: none;
+    color: #492E87;
+    text-align: left;
+    font-size: 25px;
+    padding: 16px;
+    padding-left: 25px;
+    width: 180px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 36px;
+}
+
+.button-skills {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.button-skills:after {
+    content: 'Skills';
+    position: absolute;
+    opacity: 0;
+    top: 14px;
+    right: -60px;
+    transition: 0.5s;
+    padding-right: 50px;
+}
+
+.button-skills:hover {
+    padding-right: 24px;
+    padding-left: 9px;
+}
+
+.button-skills:hover:after {
+    opacity: 1;
+    right: 2px;
+}
+
+.button-contact {
+    border-radius: 4px;
+    background-color: transparent;
+    border: none;
+    color: #492E87;
+    text-align: left;
+    font-size: 25px;
+    padding: 16px;
+    padding-left: 25px;
+    width: 180px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 36px;
+}
+
+.button-contact {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.button-contact:after {
+    content: 'Contacts';
+    position: absolute;
+    opacity: 0;
+    top: 14px;
+    right: -60px;
+    transition: 0.5s;
+}
+
+.button-contact:hover {
+    padding-right: 24px;
+    padding-left: 9px;
+}
+
+.button-contact:hover:after {
+    opacity: 1;
+    right: 2px;
+}
+
+.button-git {
+    border-radius: 4px;
+    background-color: transparent;
+    border: none;
+    color: #492E87;
+    text-align: left;
+    font-size: 25px;
+    padding: 16px;
+    padding-left: 25px;
+    width: 180px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 36px;
+}
+
+.button-git {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.button-git:after {
+    content: 'Git';
+    position: absolute;
+    opacity: 0;
+    top: 14px;
+    right: -60px;
+    transition: 0.5s;
+    padding-right: 60px;
+}
+
+.button-git:hover {
+    padding-right: 24px;
+    padding-left: 9px;
+}
+
+.button-git:hover:after {
     opacity: 1;
     right: 2px;
 }
